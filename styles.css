@@ -25,9 +25,10 @@ nav{
 }
 nav img{
     height: 100%;
-    border-left: 2px solid #EB7F00;;
-    border-right: 2px solid #EB7F00;;
-    border-bottom: 2px solid #EB7F00;;
+    cursor: pointer;
+    border-left: 2px solid #EB7F00;
+    border-right: 2px solid #EB7F00;
+    border-bottom: 2px solid #EB7F00;
     border-radius:  0 0 10px 10px;
     box-shadow: -2px -2px 15px orangered ;
 }
@@ -56,19 +57,17 @@ aside h2{
 aside ul{
     list-style: none;
 }
-
-
-.container{
-    /* background-color: #EB7F00; */
-    grid-column-start: 2;
+.big-container{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
-    
 }
+
 .image-holder{
     /* background-color: darkseagreen; */
     overflow: hidden;
     padding: 10px;
+    max-width: 250px;
+    display: inline-flex;
     /* height: 347px; */
     /* width: 246px */
 }
@@ -88,3 +87,7 @@ aside ul{
     border-radius: 10px;
     
 }
+/* .desktop{
+    height: 60%;
+} */
+
