@@ -27,9 +27,9 @@ nav{
     height: 60px;
     display: inline;
     justify-content: center;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
-    z-index: 11;
+    z-index: 110;
 }
 nav img{
     transform: translateX(80vw);
