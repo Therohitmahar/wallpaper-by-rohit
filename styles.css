@@ -73,7 +73,7 @@ aside ul{
 }
 .big-container{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(4,1fr);
 }
 
 .image-holder{
@@ -89,10 +89,10 @@ aside ul{
     transition: 0.4s;
 
 }
-.container{
+.container1, .container2, .container3, .container4{
     margin: 0;
 }
-.container img{
+.container1 img, .container2 img, .container3 img, .container4 img{
     width: 90%;
     overflow: hidden;
     border-radius: 4px;
@@ -111,7 +111,15 @@ aside ul{
     box-shadow: 0px 0px 10px rgb(66, 63, 63);
 }
 
-.middle button{
+.middle a{
+ padding: 10px 15px;
+    border: transparent;
+    transition: 0.3s;
+    color: #fff;
+    opacity: 0;
+    margin: auto;
+} 
+.middle a button{
     padding: 10px 15px;
     border: transparent;
     border-radius: 3px;
@@ -121,14 +129,27 @@ aside ul{
     font-weight: 700;
     cursor: pointer;
     transition: 0.3s;
-    position: absolute;
-    transform:translateX(75%);
     background:#a05500 ;
     color: #fff;
     opacity: 0;
+    margin: auto;
 }
-
+.middle h5{
+    margin: auto;
+    text-align: center;
+    transition: 0.3s;
+    color: #fff;
+    opacity: 0;
+    margin: auto;
+}
+ 
+.image-holder:hover .middle h5{
+    opacity: 1;
+}
 .image-holder:hover .middle button{
+    opacity: 1;
+}
+.image-holder:hover .middle a{
     opacity: 1;
 }
 .middle button:hover{
@@ -146,6 +167,10 @@ aside ul{
     bottom: 0;
     border-radius: 10px;
     scale: 0.93;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .image-holder:hover .middle{
