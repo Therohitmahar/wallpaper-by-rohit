@@ -1,17 +1,7 @@
-https://drive.google.com/u/0/uc?id=1C-uXi0OmAfRLTC4r0JX3vd-0vq7I1101&export=download
-
-1C77SIl9lj0XgkIMWOM3IhqTEoZgfMZ1t
-
-https://drive.google.com/file/d/1C-uXi0OmAfRLTC4r0JX3vd-0vq7I1101/view?usp=sharing
-
 https://drive.google.com/drive/u/0/folders/1Ou7-ECMeGE32vY5n33KQHgrxFTLeM_Dx
-1Ou7-ECMeGE32vY5n33KQHgrxFTLeM_D
+Id : 1Ou7-ECMeGE32vY5n33KQHgrxFTLeM_D
 
-cloud Norm: https://drive.google.com/file/d/1C77SIl9lj0XgkIMWOM3IhqTEoZgfMZ1t/view?usp=share_link
-
-Evening Rays : https://drive.google.com/file/d/1BnCu_VWJ0QvGKkb2ybqlpMRmLS4-HZ0D/view?usp=share_link
-
-Far from himalayas : https://drive.google.com/file/d/1BqHgX7sjFYvuSGnVgohpi4Il8kfLmwxM/view?usp=share_link
+https://drive.google.com/u/0/uc?id={_ID_}&export=download
 const images = [
 
         {
